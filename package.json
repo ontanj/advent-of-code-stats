@@ -1,0 +1,12 @@
+{
+  "name": "aoc-stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
