@@ -2,8 +2,8 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "noUncheckedIndexedAccess": true,
-    "outDir": "build"
+    "outDir": "build",
+    "sourceMap": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }

@@ -8,5 +8,11 @@
     "@tsconfig/recommended": "^1.0.1",
     "@types/node": "^18.11.10",
     "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && yarn run-build",
+    "run-build": "node build/index.js --enable-source-maps",
+    "deploy": "yarn build && rm -r dist && cp -r build dist"
   }
 }
